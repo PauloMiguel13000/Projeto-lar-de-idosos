@@ -18,6 +18,16 @@ body {
     padding: 10px;
     
 }
+
+.icone{
+  margin-top: -35px;
+  margin-right: 140px;
+
+  
+}
+    
+    
+}
 .cor {
  opacity: 0.7;
  color: #070707;
@@ -38,8 +48,7 @@ body {
 .logo {
   font-size: 150%;
   font-weight: bold;
-  
-  color: white;
+  color:#070707
 
 }
 .menu {
