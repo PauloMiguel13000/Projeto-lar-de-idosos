@@ -1,67 +1,117 @@
+@import url('https://fonts.googleapis.com/css2? family = Pacifico & display = swap');
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--cor-fundo-temporario);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+:root {
+  --cor-menus: #008B8B;
+  --cor-botoes: #ffffff;
+  --cor-fundo-temporario: #dadcdb;
+}
+.header {
+    background-color: var(--cor-menus);
+    text-align: center;
+    padding: 10px;
+    
 }
 
-header{
-    width: 100%;
-    background-color: #b55de8c4;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    flex-wrap: wrap;
-    flex: auto;
+.icone{
+  margin-top: -35px;
+  margin-right: 140px;
+
+  
+}
+    
+    
+}
+.cor {
+  margin-left: 10px;
+  margin-right: 3px;
+  
+}
+.cor1 {
+   margin-left: 3px;
+   
+   
+ }
+/*#008B8B*/
+.logo {
+  font-size: 150%;
+  font-weight: bold;
+  color:#070707
 
 }
-
-.container-logo{
-    display: flex;
-    align-items: center;
-
+.menu {
+  overflow: hidden;
+  background-color: var(--cor-menus);
+  box-shadow: 0px 2px 6px #070707;
+}
+.menu a {
+  float: left;
+  display: block;
+  color: var(--cor-botoes);
+  text-align: center;
+  padding: 8px 18px;
+  text-decoration: none;
+  border: 1px solid var(--cor-botoes);
+  border-radius: 50px;
+  
+}
+.menu a:hover {
+  background-color: var(--cor-botoes);
+  color: var(--cor-menus);
+  
+  transition: 0.6s;
+  border: 1px solid var(--cor-menus);
 }
 
-.logo-texto{
-    margin-left: 30px;
 
+.icones {
+  overflow: hidden;
+  background-color: var(--cor-menus);
 }
-
-.menu li{
-    display: inline-block;
-    margin: 0 10px;
+.icones a {
+  float: left;
+  display: block;
+  color: var(--cor-botoes);
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
 }
-.menu li a{
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    padding: 8px 8px 
-
+.icones a:hover {
+  background-color: var(--cor-botoes);
+  color: var(--cor-menus);
+  
 }
-
-.menu li a:hover{
-    background-color: rgba(253, 253, 253, 0.308);
+#rodape{    
+    background:var(--cor-menus);
+    position:absolute;
+    bottom:0; 
+    width:100%;
+    margin-top: 10px;
 }
 
 .titulo{
-    margin-left: 200px;
-    margin-top: 100px;
+  margin-left: 200px;
+  margin-top: 100px;
 
 }
 
 .paragrafo{
-    text-align: left;
-    text-align: justify;
-   
-    width: 300px;
-    margin-left: 200px;
-    margin-top: 50px;
-    font-size: 13pt;
+  text-align: left;
+  text-align: justify;
+ 
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 13pt;
 }
 
 .imagem{
-    margin-left: 650px;
-    margin-top: -430px;
-    
-}
+  margin-left: 650px;
+  margin-top: -430px;
